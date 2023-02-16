@@ -1,0 +1,3 @@
+* During these formative years of the Web could only be static, lacking the capability for dynamic behavior after the page was loaded in the browser. There was a desire in the flourishing web development scene to remove this limitation, so in 1995, Netscape decided to add a language to their browser Navigator.
+* [[../assets/image_1676468228732_0.png]]
+*

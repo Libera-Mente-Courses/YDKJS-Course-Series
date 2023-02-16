@@ -1,0 +1,22 @@
+* Comments in JS Code
+** Single Line Comment
+#+BEGIN_SRC js
+// This is a single line comment
+#+END_SRC
+** Multi line Commnet
+#+BEGIN_SRC js
+/**
+  * this is a multi-line comment
+  * it can span multiple lines
+  * it's useful for commenting out large chunks of code
+  */
+#+END_SRC
+
+A more simple example
+#+BEGIN_SRC js
+/*
+  this is a multi-line comment
+  it can span multiple lines
+  it's useful for commenting out large chunks of code
+*/
+#+END_SRC

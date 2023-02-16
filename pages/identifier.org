@@ -1,0 +1,11 @@
+* An *identifier* is a sequence of characters in the code that identifies a variable, function or property
+* In JavaScript, identifiers are
+** case-sensitive
+** can contain
+*** Unicode letters
+*** $
+*** _
+*** digits (0-9)
+** but may not start with a digit.
+* [[Naming Conventions]]
+*

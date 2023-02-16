@@ -1,0 +1,178 @@
+* Javascript
+** [[Origin of JS]]
+** [[Development Environment]]
+** [[Hello World]]
+** [[Comments in Code]]
+** [[Values and Types]]
+*** [[Primitive Type]]
+*** [[Object]]
+*** Array
+*** Function
+** Coercions
+** Equality and Conditionals
+** [[Variables]]
+*** [[var]]
+*** Functions as Values
+*** Higher Order Function Examples
+** Intro to Engine, Compiler and Scope
+*** RHS and LHS Lookups
+**** Reference Error
+**** Type Error
+*** Nested Scope
+**** Strict mode behaviour
+*** Quiz
+** Lexical Scope
+*** Lookups
+*** Shadowing
+**** First class Identifiers
+**** Object Property Access Rule
+*** Cheating lexical scope
+**** eval
+***** Strict mode behaviour
+**** with
+***** Strict mode behaviour
+*** Lexical Scope chain
+** Function Scope
+*** Principle of Least Privilege
+**** Collision Avoidance
+**** Functional Modules
+*** Anonymous Functions
+*** IIFE
+** Catch Block Scope
+*** Polyfilling for Block Scope
+** ES6 Block Scope
+*** let
+**** Garbage collection
+**** Loop
+*** const
+** Hoisting
+*** Chicken Egg Problem
+*** Compilation before execution
+*** Functions first
+*** Duplicate declarations
+** Closures
+*** Visualizing Closures
+*** Real world example with
+**** settimeout
+**** callback functions
+*** Loops with closures
+**** Block Scope Behaviour
+*** Module Pattern
+**** New Instance
+**** Singleton Instance
+**** Constructors
+**** Modern Modules
+**** Future Modules
+*** Scope Review
+**** Execution Context
+***** Memory Component
+****** Memory Creation Phase
+***** Thread of Execution
+****** Code execution Phase
+**** Lexical Scope chain
+**** Call stack
+**** undefined vs not defined
+**** temporal dead zone
+** this!!!
+*** Meaning of ~this~
+**** Wrong: Refer to itself
+**** Misguided: Refer to its function scope
+**** Real: Refers to the runtime binding from call site
+*** Dynamic Scope
+**** call site
+*** Rules of resolving this
+**** Default binding -> global
+***** strict mode behaviour
+**** Implicit Binding
+**** Implicitly Lost
+**** Explicit Binding
+***** Boxing
+**** Hard binding
+**** API Call Context
+**** new Binding
+**** Precedence of rules
+**** Binding exceptions
+***** Ignored this
+***** Indirection
+**** Manupulating this
+***** Safer this
+***** Soft binding
+**** Lexical this
+***** Holy Grail of "Why people like arrow functions?"
+** Objects
+*** Complex primitives
+*** Contents
+**** Property Access vs Key Access
+**** Computed Property names
+**** Propery Access vs Methods
+**** Array Properties
+*** Javascript Classes
+**** Inheritance, Abstraction, Polymorphism
+**** Mixins
+*** Prototypes
+*** Behavipur Delegation
+**** Classes vs Objects
+** Async in JS
+*** Callback Hell
+*** Promises
+*** Javascript Engine Revisited
+**** Microtask Queue
+** Types and Grammars
+*** Native Types
+**** Internal Class
+**** Object Wrappers Gotchas
+**** Prototypes and Constructors
+*** Deep dive into Coercions
+*** Special Values in JS
+** Important things of ES6
+*** Newer Syntax
+*** Collections API
+*** API Additions
+*** Meta Programming
+**** Symbols
+**** Reflect API
+*** Beyond ES6
+**** Babel plugins
+* React
+** Basics
+*** Installation
+*** Intro to JSX
+*** Rendering Elements
+*** Components, Props, Default Values
+*** State of a component
+*** Lifecycle of a component
+*** Conditional Rendering
+*** Lists and Keys
+*** Forms and Event handling
+*** Lifting state up
+*** Composition in React
+*** Fragments
+*** Strict Mode
+*** Prop Types
+*** Styling in React
+** Design Patterns
+*** Context API
+*** Higher Order Components
+*** Render Props
+*** Forward Refs
+** Hooks in React
+*** useState and useEffect hook
+*** Rules of hooks
+*** Building your own hooks
+*** Commonly used hook APIs
+**** Context Hooks
+**** Ref Hooks
+**** Performance Hooks
+** Component Libraries in React
+*** Material UI
+** React Router
+*** Static Routes
+*** Security, Code Splitting and Dynamic Routes
+** State Management with Redux
+*** Action, Reducer, Slice and Store
+*** Async Thunk
+** Async Query
+*** Axios
+*** React Query
+*** RTK Query
+* Capstone Project

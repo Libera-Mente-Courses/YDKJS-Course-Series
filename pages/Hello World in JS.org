@@ -1,0 +1,13 @@
+* alert
+#+BEGIN_SRC js
+// hello world
+alert("Hello world!");
+alert("Hi everyone");
+#+END_SRC
+* console.log
+#+BEGIN_SRC js
+// hello world
+console.log("Hello world!");
+console.log("Hi everyone");
+#+END_SRC
+*

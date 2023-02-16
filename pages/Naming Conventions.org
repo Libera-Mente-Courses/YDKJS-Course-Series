@@ -1,0 +1,12 @@
+* Naming conventions for variables
+|-------------+-------------|
+| formatting  | name        |
+|-------------+-------------|
+| ~twowords~  | flat case   |
+| ~TWOWORDS~  | upper case  |
+| ~twoWords~  | camel case  |
+| ~TwoWords~  | pascal case |
+| ~two_words~ | snake case  |
+| ~TWO_WORDS~ | all caps    |
+| ~two-words~ | kebab case  |
+|-------------+-------------|

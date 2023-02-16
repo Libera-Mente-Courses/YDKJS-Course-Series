@@ -1,0 +1,14 @@
+* Variables are like boxes in programming language, these boxes store value/data inside them
+* A variable has a name/identifier and a value
+* Variables are declared using [[var]] keyword
+* Declaration of a variable:
+** [[var]] keyword
+** [[identifier]] or name
+** value (optional)
+* Examples:
+#+BEGIN_SRC js
+var name = "Noman";
+var age = 25;
+var myAccountBalance = 100.36;
+var amIAStudent = true;
+#+END_SRC

@@ -1,0 +1,1 @@
+* var is a special keyword in JS for declaring variables

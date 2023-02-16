@@ -1,0 +1,17 @@
+* Array is a container for storing finite list of values in order
+* Array is a special type of [[Object]]
+* Properties of arrays are basically numbers
+* Indexing/Numbering in array starts at 0
+* In JS, an array can hold different type of values
+* Example:
+#+BEGIN_SRC js
+var evenNumbersUptoTen = [0, 2, 4, 6, 8, 10];
+var names = ["Noman", "Rahim", "Karim"];
+var dynamicArray = [1, "Noman", true, { age: 25, color: "white" }]
+
+console.log(evenNumbersUptoTen);
+console.log(names);
+console.log(dynamicArray);
+#+END_SRC
+* [[../assets/image_1676543825954_0.png]]
+*

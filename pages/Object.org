@@ -1,0 +1,35 @@
+* Objects are complex data type in JS that are described with [[Property]](s) stored in key-pair fashion
+[[../assets/image_1676541369664_0.png]]
+* Objects can also be seen as tables with column key and value
+* Example
+#+BEGIN_SRC js
+var noman = {
+    name: "Noman",
+    age: 25,
+    profession: {
+        designation: "Software Engineer",
+        company: {
+            name: "Brainstation 23 Ltd",
+            location: "Dhaka"
+        }
+    }
+};
+
+var myCar = {
+    color: "Yellow",
+    name: "Lancer",
+    manufacturer: "Mitsubishi",
+    engine: {
+        cc: 250,
+        noOfCylinders: 4
+    }
+};
+
+// Output
+
+console.log(noman);
+console.table(noman)
+console.dir(noman);
+
+console.log(myCar);
+#+END_SRC
